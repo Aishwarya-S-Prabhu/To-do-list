@@ -4,22 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" />
     <title>To-do-list</title>
 </head>
 <body>
-    <section class ="header">
-        <div class="logo">
-
+    <header>
+        <nav class="navbar">
+            <div class="navbar_brand">
+                <img src="assets/logo.png" alt="logo" class="navbar_logo" />
+            </div>
+            <div class="name">
+                <h1>To-do-List</h1>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h3>Hello this is a to do list webpage to help you plan and complete your activities accordingly</h3>
+        <section class="explore_to-do_container">
+            <h1 class="explore_menu_text">This is your to-do-list</h1>
+            <div class="explore_menu_gradient_bg"></div>
+            <div class="explore_menu_lists">
+                <!--Display data-->
+                <div class="display-data">
+                    <div class="food_card_image_conatiner">
+                        <div class="food_card_description">
+                            <h3 class="food_title">Pending</h3>
+                            <p>Your pending tasks.... </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-data">
+                    <input 
+                    type="text" 
+                    id="input">
+                <button type="submit" id="button">Add</button>
+                </div>
+                <div class="image">
+                    <img src="./assets/pic.png" alt="image of notepad" />
+                </div>
+            </div>   
+        </section>        
+       
+    </main>
+    <footer class="footer_container">
+        <div>
+            <img src="./assets/logo.png" alt="logo" class="footer_logo" />
         </div>
-        <div class ="name">
-            <h1>To-Do-List</h1>
+        <div class="footer_list">
+            <ul style="list-style-type: none;">
+                <li>Pricing</li>
+                <li>Terms and conditions</li>
+                <li>Partnership</li>
+                <li>Career</li>
+                <li>Contact</li>
+                
+            </ul>
         </div>
-    </section>
-    <section class = "main">
 
-    </section>
-    <section class ="footer">
-
-    </section>
+    </footer>
+    <script src="index.js"></script>
     </body>
 </html>
