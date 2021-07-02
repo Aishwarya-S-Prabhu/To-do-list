@@ -1,5 +1,5 @@
 let button = document.getElementById('button')
-let div = document.getElementById('display-data')
+let div = document.getElementById('tasks')
 let input = document.getElementById('input')
 
 button.addEventListener('click',() =>{
